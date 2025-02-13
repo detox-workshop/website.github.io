@@ -891,7 +891,7 @@ section,
 
 .hero:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 30%);
+  background: color-mix(in srgb, var(--background-color), transparent 60%);
   position: absolute;
   inset: 0;
   z-index: 2;
@@ -907,6 +907,7 @@ section,
   margin: 0;
   font-size: 48px;
   font-weight: 700;
+  color: var(--default-color)
 }
 
 .hero h2 span {
@@ -923,7 +924,7 @@ section,
   .hero h2 {
     font-size: 32px;
     line-height: 36px;
-    color: var(--heading-color);
+    
   }
 
   .hero p {
@@ -942,7 +943,7 @@ section,
 
 .hero .about-info:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 5%);
+  background: color-mix(in srgb, var(--heading-color), transparent 5%);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -962,6 +963,10 @@ section,
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 10px;
+  color: #fff;
+}
+.hero .about-info h5 {
+ 
   color: #fff;
 }
 
