@@ -4,428 +4,290 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>DeWeb @ICWSM2024</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <title>Index - TheEvent Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800"
-    rel="stylesheet">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- Privacy-Respecting Analytics -->
-  <script defer src="https://eu.umami.is/script.js" data-website-id="3fdf4364-0fa7-49c4-b541-0e6e6a66b171"></script>
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: TheEvent
-  * Updated: Jan 29 2024 with Bootstrap v5.3.2
   * Template URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
 </head>
 
-<body>
+<body class="index-page">
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="d-flex align-items-center ">
-    <div class="container-fluid container-xxl d-flex align-items-center">
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
-      <div id="logo" class="me-auto">
-        <a href="index.html" class="scrollto"><img src="assets/img/logo.png" alt="" title=""></a>
-      </div>
+      <a href="#hero" class="logo d-flex align-items-center me-auto">
+        <img src="assets/img/logo-detox.png" alt="">
+        <!-- Uncomment the line below if you also wish to use an text logo -->
+        <!-- <h1 class="sitename">TheEvent</h1>  -->
+      </a>
 
-      <nav id="navbar" class="navbar order-last order-lg-0">
+      <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">The Workshop</a></li>
-          <li><a class="nav-link scrollto" href="#cfp">Call for Papers</a></li>
-          <li><a class="nav-link scrollto" href="#dates">Dates & Submission</a></li>
-          <li><a class="nav-link scrollto" href="#speakers">Speakers</a></li>
-          <li><a class="nav-link scrollto" href="#schedule">Program</a></li>
-          <li><a class="nav-link scrollto" href="#registration">Registration</a></li>
-          <li><a class="nav-link scrollto" href="#venue">Venue</a></li>
-          <li><a class="nav-link scrollto" href="#organizers">Organization</a></li>
+          <li><a href="#hero" class="active">Home<br></a></li>
+          <li><a href="#cfp">Topics</a></li>
+          <li><a href="#speakers">Speakers</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#venue">Venue</a></li>
+          <li><a href="#contact">Organisers</a></li>
         </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
+      
+
     </div>
-  </header><!-- End Header -->
+  </header>
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero">
-    <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
-      <h1 class="mb-4 pb-0"><span>DETOX</span>2025<br>Countering social media degradation</h1>
-      <p class="mb-4 pb-0">In conjuction with the 19th International AAAI Conference on Web and Social Media, ICWSM 2025
-      </p>
-      <p class="mb-4 pb-0">Monday, June 23rd, 2025 - Copenhagen, Denmark</p>
-      <a href="#about" class="about-btn scrollto">About the Workshop</a>
-    </div>
-  </section><!-- End Hero Section -->
+  <main class="main">
 
-  <main id="main">
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
 
-    <!-- ======= About Section ======= -->
-    <section id="about">
-      <div class="container position-relative" data-aos="fade-up">
-        <div class="row">
-          <div class="col-lg-12">
-            <h2>About The Workshop</h2>
-            <p><b>Decentralizing the Web</b> is a trend that gained remarkable momentum in recent years, fueled by a
-              collective
-              desire to redefine our engagement with online platforms. The conventional centralized vision of the Web is
-              being challenged by a growing interest in decentralizing control and interactions, which finds its most
-              profound expression in socio-economic systems. Illustrative examples of this transformative shift include
-              the increasing attention received by <b>Decentralized Online Social Media</b> platforms with the so-called
-              <b>Fediverse</b>, and the emergence of <b>Web3</b>.
+      <img src="assets/img/people-long.png" alt="" data-aos="fade-in" class="">
 
-              <br><br>
+      <div class="container d-flex flex-column align-items-center text-center mt-auto">
+        <h2 data-aos="fade-up" data-aos-delay="100" class=""><span>DETOX</span><br>countering social media degradation</h2>
+        <p data-aos="fade-up" data-aos-delay="200">Workshop in conjuction with the 19th International AAAI Conference on Web and Social Media, ICWSM 2025</p>
+        
+      </div>
 
-              This workshop aims to comprehensively explore the burgeoning landscape of decentralized socio-economic web
-              platforms, seeking to shed light on the key challenges and opportunities inherent in this paradigm.
-              Particular emphasis will be placed on understanding the impact of decentralization on user behavior, and
-              the emergence of novel forms of cooperation driven by the lack of centralized control.
+      <div class="about-info mt-auto position-relative">
 
-              <br><br>
-
-              We believe investigating these points becomes now crucial for researchers across different fields,
-              including computer science, human-computer interactions, and computational social science, due to the
-              increasing pervasiveness of such paradigm shift.
-              This workshop is intended to foster interdisciplinary discussions, facilitating collaboration among
-              diverse
-              research communities to unravel the intricate complexities and implications of decentralizing the web,
-              thereby playing a pivotal role in shaping the future of online platforms and interactions.
-            </p>
+        <div class="container position-relative" data-aos="fade-up">
+          <div class="row">
+            <div class="col-lg-9">
+              <h2>About The Event</h2>
+              <p>Despite their integral role in modern life, social media platforms increasingly manifest patterns of inequality,
+                 polarization, and centralization, failing to fulfill their promise of equitable discourse spaces.
+                  This workshop explores strategies to counter these degradation patterns, 
+                  focusing on how users actively resist and reshape their digital environments. 
+                  We invite discussions on collective resistance mechanisms, platform migration dynamics, 
+                  and structural factors that influence these transformation efforts.
+                 The workshop combines technical perspectives on alternative designs and sustainability metrics 
+                 with insights from policy and social sciences to advance our understanding of building healthier 
+                 social media ecosystems.</p>
+            </div>
+            <div class="col-lg-3">
+              <h3>Submission deadline</h3>
+              <p>April 14, 2025</p>
+              <h3>Notification</h3>
+              <p>May 2, 2025</p>
+              <h3>Event</h3>
+              <p>June 23, 2025</p>
+            </div>
+            
           </div>
         </div>
       </div>
-    </section><!-- End About Section -->
 
-
-    <!-- ======= CfP Section ======= -->
+    </section><!-- /Hero Section -->
     <section id="cfp">
       <br>
-      <div class="container" data-aos="fade-up">
-        <div class="section-header">
-          <h2>Topics</h2>
-        </div>
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Topics<br></h2>
 
-        <p>This workshop seeks to esplore contributions ranging multiple research fields, such as <b>Network
-            Science</b>, <b>Natural Language Processing</b>, and <b>Computational Social Science</b>, aiming to
-          facilitate the exchange of <b>methodologies</b> and <b>empirical findings</b> to foster a deeper understanding
-          of the dynamics of the Decentralized Web.
-
-          <br>
-          The <b>topics of interest</b> of the DeWeb workshop at ICWSM2024 include but are not limited to:
-
+      </div>
+      <div class="container">
+        <p>The workshop invites submissions on a range of topics, including but not limited to:</p>
         <ul>
-          <li> Structures and dynamics in decentralized platforms</li>
-          <li> Graph mining in decentralized platforms</li>
-          <li> NLP in decentralized platforms</li>
-          <li> Decentralized social interactions</li>
-          <li> Decentralized currencies and finance</li>
-          <li> Coordinated and cooperative user behaviors within decentralized platforms</li>
-          <li> Migratory phenomena towards decentralized platforms</li>
-          <li> Misinformation, disinformation, and fake news in decentralized platforms</li>
-          <li> Content moderation in decentralized platforms</li>
-          <li> Community search, detection, and evolution in decentralized platforms</li>
-          <li> Polarization phenomena in decentralized platforms</li>
-          <li> Fraudulent activities in decentralized platforms</li>
-          <li> Ethical and privacy aspects of decentralized platforms</li>
-          <li> Dataset and resources for studying decentralized platforms</li>
+          <li>Measuring and addressing user dynamics against social media degradation</li>
+          <li>Social influence of social media degradation awareness</li>
+          <li>Measuring and reducing  polarization</li>
+          <li>Collective User Migration </li>
+          <li>Diffusion of new social norms  </li>
+          <li>Policies and social norms for healthy digital spaces</li>
+          <li>Mixed-methods approaches (e.g., from sociology, digital humanities, psychology) to counter social media degradation</li>
+          <li>Improvements of UX in the face of social media degradation</li>
+          <li>Analysis of social networks and communities with explicit signs of social media degradation</li>
+          <li>Analysis of social networks and communities with explicit signs of social media degradationn</li>
+          <li>Reduction of inequalities</li>
+          <li>Analysis of conversations relevant to social media degradation</li>
+          <li>Dynamics and structure of social graphs in relation to social media degradation</li>
+          
+
+          
         </ul>
-        </p>
+      
+      </div>
 
-    </section><!-- End CfP Section -->
+    </section>
+    <!-- Speakers Section -->
+    <section id="speakers" class="speakers section">
 
-    <!-- ======= Submissions Section ======= -->
-    <section id="dates">
-      <br>
-      <div class="container" data-aos="fade-up">
-        <div class="section-header">
-          <h2>Dates & Submissions</h2>
-        </div>
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Invited Speaker<br></h2>
 
-        <center>
-          <h3>Important Dates</h3>
-          <h4>
-            <p>
-              <b>Submission Deadline:</b> <s>March 24, 2024<b><text style="color:red"> April 5, 2024</text></s></b><br>
-              <b>Notifications:</b> April 14, 2024<br>
-              <b>Camera-Ready Due:</b> May 5, 2024<br>
-              <b>Workshop Day:</b> June 3, 2024<br>
-            </p>
-          </h4>
+      </div><!-- End Section Title -->
 
-          <h5>All deadlines are 11:59 PM <a href="https://time.is/Anywhere_on_Earth">AOE (Anywhere On Earth)</a></h5>
-        </center>
-        <br>
-        <center>
-          <h3>Submission Instructions</h3>
-          <h5><b>Submit via the EasyChair portal: <a
-                href="https://easychair.org/conferences/?conf=deweb2024">https://easychair.org/conferences/?conf=deweb2024</a></b>
-          </h5>
-        </center>
-
-        We welcome both <b>2-page abstracts</b>, as well as <b>short (4 pages) papers</b> - not counting references and
-        appendices (if applicable). Abstracts are ideal for position papers or discussion papers of previously published
-        work. Short papers must contain <b>original work</b>, and are best suited for technical contributions, demos,
-        datasets, or early-stage research with experimental results.
-
-        <br><br>
-        All submissions should be <b>double-blind</b> and in <b>English</b>, and have to follow the <a
-          href="https://www.overleaf.com/latex/templates/aaai-2023-author-kit/wxnmhzcrjbpc">AAAI two-column,
-          camera-ready style</a>. Submitted papers must adhere to the <a
-          href="https://www.icwsm.org/2024/index.html/call_for_submissions.html#guidelines">ICWSM guidelines</a>, but
-        authors <u>do not need</u> to compile the ethics checklist required for submissions to the main research track
-        of ICWSM.
-
-        <br><br>
-        The <b>accepted short papers</b> (<u>not the 2-page abstracts</u>) will be published in the <b>ICWSM Workshop
-          Proceedings</b> (<a href="https://workshop-proceedings.icwsm.org/">https://workshop-proceedings.icwsm.org/</a>) by the AAAI Press.
-
-        <br><br>
-        The DeWeb2024 workshop is expected to be in person, and we encourage you to attend in person to fully engage
-        with the community. However, we are also planning a virtual option for those who cannot attend in person. More
-        details will be provided soon.
-
-        <center><b>Please, contact the organizers for questions related to the submission or participation.</b></center>
-
-
-    </section><!-- End Topics Section -->
-
-    <!-- ======= Speakers Section ======= -->
-    <section id="speakers">
-      <div class="container" data-aos="fade-up">
-        <div class="section-header">
-          <h2>Speakers</h2>
-        </div>
+      <div class="container">
 
         <div class="row">
           <center>
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="100">
-              <img src="" alt="Andy Piper" class="img-fluid">
+              <img src="assets/img/max.png" alt="Max" class="img-fluid">
               <div class="details">
-                <h3><a href="https://andypiper.me/">Andy Piper</a></h3>
-                <p>Developer Relations @ Mastodon</p>
-                <div class="social">
-                  <a href="https://macaw.social/@andypiper/"><i class="bi bi-mastodon"></i></a>
-                  <a href="https://www.linkedin.com/in/andypiperuk"><i class="bi bi-linkedin"></i></a>
-                </div>
+                <h3><a href="https://www.maxfalkenberg.com">Max Falkenberg</a></h3>
+                <p>Central European University, Vienna</p>
+                
               </div>
             </div>
           </div>
         </center>
         </div>
+
       </div>
 
-    </section><!-- End Speakers Section -->
+    </section><!-- /Speakers Section -->
 
-    <!-- ======= Schedule Section ======= -->
-    <section id="schedule" class="section-with-bg">
-      <div class="container" data-aos="fade-up">
-        <div class="section-header">
-          <h2>Program</h2>
-          <p>All times below are <a href="https://time.is/it/ET">Eastern Time (ET)</a></p>
-        </div>
+    <!-- Schedule Section -->
+    <section id="schedule" class="schedule section">
 
-        <!-- <h3 class="sub-heading">More information will be available soon.</h3> -->
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Preliminary Program<br></h2>
+        <p>Detailed program will we available after contribution notification</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+      
 
         <div class="tab-content row justify-content-center" data-aos="fade-up" data-aos-delay="200">
 
+          
           <!-- Schdule Day 1 -->
           <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>09:00 AM</time></div>
+              <div class="col-md-2"><time></time></div>
               <div class="col-md-10">
-                <h4>Opening</h4>
-                <p>Speakers: Workshop Organizers</p>
+                <h4>Welcome</h4>
+                <p>by the organisers</p>
               </div>
             </div>
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>09:15 AM</time></div>
+              <div class="col-md-2"><time></time></div>
               <div class="col-md-10">
                 <div class="speaker">
-                  <img src="assets/img/speakers/piper.jpeg" alt="Andy Piper">
+                  <img src="assets/img/max.png" alt="Max">
                 </div>
-                <h4>Andy Piper<span> Developer Relations @ Mastodon</span></h4>
-                <p>“The Social Web - decentralization and building a better Internet”</p>
+                <h4>Invited speaker <span>Max Falkenberg</span></h4>
+                <p>Title TDB.</p>
               </div>
             </div>
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>10:00 AM</time></div>
+              <div class="col-md-2"><time></time></div>
               <div class="col-md-10">
-                <!-- <div class="speaker">
-                  <img src="assets/img/speakers/2.jpg" alt="Paper Session 1">
-                </div> -->
-                <h4>Paper Session #1</h4>
-                <p>"SMI-5: Five Dimensions of Social Media Interaction for Platform (De)Centralization", Lynnette Hui Xian Ng, Samantha C. Phillips, Kathleen M. Carley</p>
-                <p>"Do Servers Matter on Mastodon? Data-driven Design for Decentralized Social Media", Carl Colglazier</p>
+                
+                <h4>Pitch Talks</h4>
+                
               </div>
             </div>
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>10:50 AM</time></div>
+              <div class="col-md-2"><time></time></div>
               <div class="col-md-10">
-                <!-- <div class="speaker">
-                  <img src="assets/img/speakers/3.jpg" alt="Cole Emmerich">
-                </div> -->
-                <h4>Coffee Break</h4>
+                
+                <h4>Coffee break</h4>
+                
               </div>
             </div>
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>11:10 AM</time></div>
+              <div class="col-md-2"><time></time></div>
               <div class="col-md-10">
-                <!-- <div class="speaker">
-                  <img src="assets/img/speakers/4.jpg" alt="Jack Christiansen">
-                </div> -->
-                <h4>Paper Session #2</h4>
-                <p>"Exploring Left-Wing Extremism on the Decentralized Web: An Analysis of Lemmygrad.ml", Utkucan Balci, Michael Sirivianos, Jeremy Blackburn</p>
-                <p>"Truthiness and Activity Counts: The Challenges and Opportunities of Enumerating Behavior in Decentralized Social Media", Matthew N. Nicholson, Casey Fiesler, Brian C. Keegan</p>
-                <p>"Characterizing Moderation Rules in the Fediverse", Manuel Tonneau, Mohsen Mosleh and David G. Rand</p>
+                
+                <h4>Contributed talks</h4>
+                
               </div>
             </div>
-
             <div class="row schedule-item">
-              <div class="col-md-2"><time>12:00 PM</time></div>
+              <div class="col-md-2"><time></time></div>
               <div class="col-md-10">
-                <!-- <div class="speaker">
-                  <img src="assets/img/speakers/5.jpg" alt="Alejandrin Littel">
-                </div> -->
-                <h4>Panel Session</h4>
-                <p>White-Paper Drafting on Decentralizing the Web</p>
+                
+                <h4>Detox Tables</h4>
+                
               </div>
             </div>
-
             <div class="row schedule-item">
-              <div class="col-md-2"><time>12:50 PM</time></div>
+              <div class="col-md-2"><time></time></div>
               <div class="col-md-10">
-                <!-- <div class="speaker">
-                  <img src="assets/img/speakers/6.jpg" alt="Willow Trantow">
-                </div> -->
-                <h4>Closing Remarks</h4>
-                <p>Speakers: Workshop Organizers</p>
+                
+                <h4>Conclusion</h4>
+                
               </div>
             </div>
 
-          </div>
-          <!-- End Schdule Day 1 -->
+            
+
+          </div><!-- End Schdule Day 1 -->
+
+         
+            
+
         </div>
+
       </div>
+    </section><!-- /Schedule Section -->
 
-    
+    <!-- Venue Section -->
+    <section id="venue" class="venue section">
 
-    <div class="container" data-aos="fade-up">
-      <div class="section-header">
-        <br><br><br>
-        <h2>Accepted Papers</h2>
-        </div>
-      <!-- <center> -->
-        <h5>
-          <p style="font-size:15px">
-            <ul>
-            <li><b><i>"SMI-5: Five Dimensions of Social Media Interaction for Platform (De)Centralization"</i></b>, Lynnette Hui Xian Ng, Samantha C. Phillips, Kathleen M. Carley</li>
-            <br>
-            <li><b><i>"Truthiness and Activity Counts: The Challenges and Opportunities of Enumerating Behavior in Decentralized Social Media"</i></b>, Matthew N. Nicholson, Casey Fiesler, Brian C. Keegan</li>
-            <br>
-            <li><b><i>"Do Servers Matter on Mastodon? Data-driven Design for Decentralized Social Media"</i></b>, Carl Colglazier</li>
-            <br>
-            <li><b><i>"Exploring Left-Wing Extremism on the Decentralized Web: An Analysis of Lemmygrad.ml"</i></b>, Utkucan Balci, Michael Sirivianos, Jeremy Blackburn</li>
-            <br>
-            <li><b><i>"Characterizing Moderation Rules in the Fediverse"</i></b>, Manuel Tonneau, Mohsen Mosleh and David G. Rand</li>
-          </ul>
-          </p>
-        </h5>
-      <!-- </center> -->
-    </div>
-    </section><!-- End Schedule Section -->
-
-    <!-- ======= Registration Section ======= -->
-    <section id="registration">
-      <br><br>
-      <div class="container" data-aos="fade-up">
-        <div class="section-header">
-          <h2>Registration</h2>
-          <center>
-            <h5><b>Please refer to the <a href="https://www.icwsm.org/2024/index.html/index.html#registration">ICWSM2024
-                  Conference Website</a> for registration details and instructions.</b></h5>
-          </center>
-
-        </div>
-
-    </section><!-- End Registration Section -->
-
-    <!-- ======= White-Paper Section ======= -->
-    <section id="whitepaper">
-      <br>
-      <div class="container" data-aos="fade-up">
-        <div class="section-header">
-          <h2>Consortium's White-Paper </h2>
-        </div>
-
-        <p>
-          The final goal of the <i>1st International Workshop on Decentralizing the Web</i> (<b>DeWeb2024</b>) will be
-          the drafting of a <b>white-paper</b>, endorsed by a <b>consortium</b> of <b>workshop participants</b> and
-          <b>authors</b> who choose to participate as experts of the domain, serving as a reference resource to open up
-          <b>new perspectives on the Decentralized Web</b>.
-
-          <br><br>
-          Guidelines and an initial structure for the document will be prepared in advance and shared with participants
-          during the workshop. The participating authors opting in will then be responsible for discussing and
-          delineating the primary <b>opportunities</b> and <b>challenges</b> within the Decentralized Web, while also
-          compiling the most pertinent <b>resources</b> to advance research in this field.
-
-          <br><br>
-          We intend to publish the white paper as a <b>collective effort</b> on platforms like arXiv as an ongoing work
-          to be <b>openly accessible</b> and start serving the community, and submit it for consideration to relevant
-          journals or conferences in the field.
-        </p>
-
-    </section><!-- End White-Paper Section -->
-
-
-
-    <!-- ======= Venue Section ======= -->
-    <section id="venue">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Event Venue<br></h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
 
       <div class="container-fluid" data-aos="fade-up">
 
-        <div class="section-header">
-          <h2>Workshop Location</h2>
-        </div>
-
         <div class="row g-0">
           <div class="col-lg-6 venue-map">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32971.34051677018!2d-78.87196092747307!3d42.90003360957214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d312af82c770df%3A0xd7f9a7357ec78bee!2sJacobs%20School%20Of%20Medicine%20And%20Biomedical%20Sciences!5e0!3m2!1sit!2sit!4v1707078899075!5m2!1sit!2sit"
-              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d144076.35430837006!2d12.382256111773799!3d55.65085139999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465254803001cc61%3A0xe7e0b8f43d4f43e7!2sAalborg%20Universitet%20K%C3%B8benhavn!5e0!3m2!1sda!2sdk!4v1739029296650!5m2!1sda!2sdk" 
+            width="600" height="450" style="border:0;" 
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+
+      
           </div>
 
           <div class="col-lg-6 venue-info">
             <div class="row justify-content-center">
               <div class="col-11 col-lg-8 position-relative">
-                <h3>Jacobs School of Medicine<br>Buffalo, NY, USA</h3>
+                <h3>Aalborg University<br>Copenhagen, DK</h3>
                 <p>The DeWeb2024 Workshop will be held in conjuction with the AAAI ICWSM 2024 Conference, hosted at the
                   Jacobs School of Medicine and Biomedical Sciences <br>955 Main St, Buffalo, NY 14203</p>
               </div>
@@ -433,170 +295,58 @@
           </div>
         </div>
 
-      </div>
+      
 
-      <div class="container-fluid venue-gallery-container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row g-0">
+    </section><!-- /Venue Section -->
 
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="assets/img/gallery/buffalo1.jpg" class="glightbox" data-gall="venue-gallery">
-                <img src="assets/img/gallery/buffalo1.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
+    
+
+    
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+
+    
+
+    <div class="copyright text-center">
+      <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
+
+        <div class="d-flex flex-column align-items-center align-items-lg-start">
+          <div>
+            © Copyright <strong><span>DETOX</span></strong>. All Rights Reserved
           </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="assets/img/gallery/buffalo2.jpg" class="glightbox" data-gall="venue-gallery">
-                <img src="assets/img/gallery/buffalo2.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="assets/img/gallery/buffalo3.jpg" class="glightbox" data-gall="venue-gallery">
-                <img src="assets/img/gallery/buffalo3.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="assets/img/gallery/niagara1.jpg" class="glightbox" data-gall="venue-gallery">
-                <img src="assets/img/gallery/niagara1.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-
-    </section><!-- End Venue Section -->
-
-
-    <!-- ======= Organizers Section ======= -->
-    <section id="organizers">
-      <br>
-      <div class="container" data-aos="fade-up">
-        <div class="section-header">
-          <h2>Organizers</h2>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-3 col-md-4">
-            <div class="speaker" data-aos="fade-up" data-aos-delay="100">
-              <img src="assets/img/organizers/lacava.png" alt="Lucio La Cava" class="img-fluid">
-              <div class="details">
-                <h3><a href="https://luciolacava.me/">Lucio La Cava</a></h3>
-                <p>Assist. Professor @ University of Calabria</p>
-                <div class="social">
-                  <a href="mailto:lucio.lacava@dimes.unical.it"><i class="bi bi-envelope"></i></a>
-                  <a href="https://luciolacava.me/"><i class="bi bi-globe"></i></a>
-                  <a href="https://twitter.com/luciolcw"><i class="bi bi-twitter"></i></a>
-                  <a href="https://datasci.social/@luciolcw"><i class="bi bi-mastodon"></i></a>
-                  <a href="https://www.linkedin.com/in/lucio-la-cava/"><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4">
-            <div class="speaker" data-aos="fade-up" data-aos-delay="200">
-              <img src="assets/img/organizers/aiello.png" alt="Luca Maria Aiello" class="img-fluid">
-              <div class="details">
-                <h3><a href="https://www.lajello.com/">Luca Maria Aiello</a></h3>
-                <p>Assoc. Professor @ ITU Copenhagen</p>
-                <div class="social">
-                  <a href="https://www.lajello.com/"><i class="bi bi-globe"></i></a>
-                  <a href="https://twitter.com/lajello"><i class="bi bi-twitter"></i></a>
-                  <a href="https://linkedin.com/in/lucamariaaiello"><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4">
-            <div class="speaker" data-aos="fade-up" data-aos-delay="300">
-              <img src="assets/img/organizers/baronchelli.jpg" alt="Andrea Baronchelli" class="img-fluid">
-              <div class="details">
-                <h3><a href="https://www.andreabaronchelli.com/">Andrea Baronchelli</a></h3>
-                <p>Professor @ City, University of London</p>
-                <div class="social">
-                  <a href="https://www.andreabaronchelli.com/"><i class="bi bi-globe"></i></a>
-                  <a href="https://twitter.com/a_baronca"><i class="bi bi-twitter"></i></a>
-                  <a href="https://www.linkedin.com/in/baronka"><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4">
-            <div class="speaker" data-aos="fade-up" data-aos-delay="100">
-              <img src="assets/img/organizers/tagarelli.jpeg" alt="Andrea Tagarelli" class="img-fluid">
-              <div class="details">
-                <h3><a href="https://people.dimes.unical.it/andreatagarelli/">Andrea Tagarelli</a></h3>
-                <p>Assoc. Professor @ University of Calabria</p>
-                <div class="social">
-                  <a href="https://people.dimes.unical.it/andreatagarelli/"><i class="bi bi-globe"></i></a>
-                  <a href="https://it.linkedin.com/in/andrea-tagarelli"><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
+          <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            
           </div>
         </div>
-      </div>
-      <br><br>
-      <div class="section-header">
-        <h2>Program Committee</h2>
-        <center>
-          <h5>
-            <p>
-              Shirin Nilizadeh, <i>University of Texas at Arlington</i>
-              <br>
-              Alessia Galdeman, <i>Università degli Studi di Milano</i>
-              <br>
-              Gareth Tyson, <i>Hong Kong University of Science and Technology</i>
-              <br>
-              Matteo Zignani, <i>Università degli Studi di Milano</i>
-            </p>
-          </h5>
-        </center>
-      </div>
-    </section><!-- End Organizers Section -->
 
+        
 
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-
-  <footer id="footer">
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong>DeWeb2024</strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!--
-        All the links in the footer should remain intact.
-        You can delete the links only if you purchased the pro version.
-        Licensing information: https://bootstrapmade.com/license/
-        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=TheEvent
-      -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> | Images: WallpaperCave | Logo: Canva
       </div>
     </div>
-  </footer><!-- End  Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <!-- Template Main JS File -->
+  <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
 </body>
