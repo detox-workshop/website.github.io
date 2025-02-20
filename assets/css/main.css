@@ -86,6 +86,9 @@ h6 {
   color: var(--heading-color);
   font-family: var(--heading-font);
 }
+.h6 span{
+  color: var(--accent-color);
+}
 
 /* Pulsating Play Button
 ------------------------------*/
